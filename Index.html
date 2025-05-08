@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perpustakaan Digital</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <img src="Logo.png" alt="Logo Perpustakaan" class="logo"/>
+      <h1>Perpustakaan Digital</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#buku">Daftar Buku</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="beranda" class="hero">
+    <h2>Selamat Datang di Perpustakaan Online SMAN 1 Mentaya Hulu</h2>
+    <p>Temukan dan baca berbagai koleksi buku kami!</p>
+    <input type="text" id="cariBuku" placeholder="Cari buku..."/>
+  </section>
+
+  <section id="buku">
+    <h2>Daftar Buku</h2>
+    <div class="buku-container" id="bukuList">
+      <!-- Buku akan dimuat oleh JavaScript -->
+    </div>
+  </section>
+
+  <section id="kontak">
+    <h2>Kontak</h2>
+    <p>Email: info@perpustakaan.id</p>
+    <p>Telepon: 021-123456</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Perpustakaan Digital</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
